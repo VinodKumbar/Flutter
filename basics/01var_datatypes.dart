@@ -24,4 +24,21 @@ main() {
   print(courselist.length);
   print(courselist.removeLast());
   print(courselist);
+
+//maps
+  var courseDetails = {
+    // key : value
+    "java": "999",
+    "dart": "899",
+    "react native": "999"
+  };
+
+  // var courseDetails2 = {"java": "999", "dart": "899", "reacr native": "999"};
+
+  print("Price for Java course is : " +
+      courseDetails[
+          "java"]!); //in Dart 3 there is a feature Added Called Null Safety which is used to guarantee that the input won't Be Null So you need just add a '!'
+
+//set
+  var cityname = {"Bengaluru", "Boston", "Goa"};
 }
